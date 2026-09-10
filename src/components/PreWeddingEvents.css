@@ -1,0 +1,60 @@
+.events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.event-card {
+    background: #fffdf9;
+    border-left: 4px solid #8b3a42;
+    border-top: 1px solid #e6d5b8;
+    border-right: 1px solid #e6d5b8;
+    border-bottom: 1px solid #e6d5b8;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.main-wedding-card {
+    border-left: 4px solid #d4af37;
+    background: #fffaf5;
+}
+
+.event-card h4 {
+    margin: 0 0 6px 0;
+    color: #8b3a42;
+    font-size: 16px; /* 13px se badha kar clear kiya */
+    font-family: 'Rozha One', serif;
+}
+
+.event-card p {
+    margin: 4px 0;
+    font-size: 14px; /* 11px se badha kar readable kiya */
+    color: #555;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.event-loc {
+    color: #b8860b !important;
+    font-weight: 600;
+}
+
+.map-btn-small {
+    display: inline-block;
+    margin-top: 8px;
+    background: #8b3a42;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 12px; /* Button text readable kiya */
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    box-shadow: 0 2px 4px rgba(139, 58, 66, 0.2);
+}
+
+.map-btn-small:hover {
+    background: #a0434c;
+}

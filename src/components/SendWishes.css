@@ -1,0 +1,56 @@
+.wishes-form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
+    margin-top: 15px; 
+}
+
+.wishes-input { 
+    padding: 12px; 
+    border-radius: 6px; 
+    border: 1px solid #d4af37; 
+    background: #fffdf9; 
+    font-size: 14px; /* 12px se badha kar clear kiya */
+    outline: none; 
+    font-family: 'Tiro Devanagari Hindi', serif;
+    color: #333;
+}
+
+.wishes-input::placeholder {
+    color: #888;
+}
+
+.wishes-textarea { 
+    height: 80px; /* Thodi height badha di taaki message likhne mein aasaani ho */
+    resize: none; 
+}
+
+.wishes-btn { 
+    padding: 14px; 
+    background: #25D366; 
+    color: #fff; 
+    border: none; 
+    border-radius: 6px; 
+    font-size: 14px; /* Button text bada aur bold kiya */
+    font-weight: bold; 
+    cursor: pointer; 
+    font-family: 'Tiro Devanagari Hindi', serif;
+    box-shadow: 0 3px 6px rgba(37, 211, 102, 0.3);
+    transition: background 0.2s;
+}
+
+.wishes-btn:hover {
+    background: #20ba5a;
+}
+
+.success-popup {
+    background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #81c784;
+    text-align: center;
+    font-weight: bold;
+    animation: fadeIn 0.5s ease-in-out;
+}

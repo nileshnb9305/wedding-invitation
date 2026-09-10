@@ -1,0 +1,55 @@
+.countdown-container {
+    background: rgba(40, 10, 15, 0.75);
+    backdrop-filter: blur(12px);
+    border: 2px solid #ffd700;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(255, 215, 0, 0.3);
+    color: #fff;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.countdown-title {
+    color: #ffd700;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+.timer-grid, .timer-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.timer-box {
+    background: linear-gradient(135deg, #b71c1c 0%, #7f0000 100%);
+    border: 1px solid #ffd700;
+    border-radius: 12px;
+    padding: 15px;
+    min-width: 75px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.timer-box span, .timer-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffd700;
+    display: block;
+    font-family: 'Rozha One', serif;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.timer-box p, .timer-label {
+    font-size: 0.85rem;
+    color: #ffeb3b;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 600;
+}

@@ -1,0 +1,104 @@
+.envelope-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(20, 15, 15, 0.85);
+  backdrop-filter: blur(10px);
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.8s ease;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+
+
+.envelope-overlay.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.envelope-container {
+  width: 310px;
+  height: 210px;
+  background: #a63a3a;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.invite-card-preview {
+  position: absolute;
+  width: 270px;
+  height: 175px;
+  background: #fffaf5;
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  text-align: center;
+  padding: 15px 10px;
+  transition: transform 0.8s ease;
+  transform: translateY(15px);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.open .invite-card-preview {
+  transform: translateY(-90px) scale(1.05);
+}
+
+.invite-card-preview .sanskrit {
+  color: #8b0000;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 4px 0;
+}
+
+.invite-card-preview h3 {
+  font-size: 14px;
+  color: #555;
+  margin: 0 0 4px 0;
+  font-weight: 600;
+}
+
+.couple-preview {
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  color: #8b3a42;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+/* Wax Seal ab card ke andar names ke bilkul niche set hai */
+.wax-seal {
+  width: 35px;
+  height: 35px;
+  background: #d4af37;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1.5px solid #fffaf5;
+  margin: 0 auto;
+}
+
+.tap-hint {
+  color: #d4af37;
+  margin-top: 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}

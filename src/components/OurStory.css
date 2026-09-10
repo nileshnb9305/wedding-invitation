@@ -1,0 +1,113 @@
+/* .story-section {
+    text-align: center;
+    background: #ffffff;
+    padding: 25px 20px;
+}
+
+.story-quote {
+    font-size: 16px;
+    color: #4a3b3c;
+    line-height: 1.7;
+    font-style: italic;
+    margin: 15px 0;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.story-badges {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    border-top: 1px dashed #d4af37;
+    border-bottom: 1px dashed #d4af37;
+    padding: 12px 0;
+}
+
+.badge-box span {
+    font-size: 14px;
+    color: #8b3a42;
+    font-weight: bold;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.badge-box p {
+    font-size: 17px;
+    color: #2c221e;
+    margin: 0;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: bold;
+}
+
+.story-couple {
+    font-family: 'Rozha One', 'Cinzel', serif;
+    font-size: 22px;
+    color: #8b3a42;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+} */
+
+
+.story-section {
+    text-align: center;
+    background: #ffffff;
+    padding: 25px 20px;
+}
+
+.story-quote {
+    font-size: 16px;
+    color: #4a3b3c;
+    line-height: 1.7;
+    font-style: italic;
+    margin: 15px 0;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.story-badges {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    border-top: 1px dashed #d4af37;
+    border-bottom: 1px dashed #d4af37;
+    padding: 12px 0;
+}
+
+.badge-box span {
+    font-size: 14px;
+    color: #8b3a42;
+    font-weight: bold;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.badge-box p {
+    font-size: 17px;
+    color: #2c221e;
+    margin: 0;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: bold;
+}
+
+.couple-container {
+    margin-top: 18px;
+}
+
+.couple-name-main {
+    font-family: 'Rozha One', 'Cinzel', serif;
+    font-size: 24px;
+    color: #8b3a42;
+    margin: 4px 0;
+    letter-spacing: 0.5px;
+}
+
+.couple-weds {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: #d4af37;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin: 4px 0;
+}

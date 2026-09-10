@@ -1,0 +1,52 @@
+.petals-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 999999;
+    overflow: hidden;
+}
+
+.petal {
+    position: fixed;
+    top: -40px;
+    pointer-events: none;
+    animation-name: fallAndSway;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* Asli gulab ki pankhudi ka organic curve */
+    border-radius: 60% 40% 50% 50% / 50% 60% 40% 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* 4 Matching Shades jo Shahi Card Theme ke sath perfect lagenge */
+.rose-type-0 {
+    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%); /* Rich Royal Red */
+}
+
+.rose-type-1 {
+    background: linear-gradient(135deg, #880e4f 0%, #4a148c 100%); /* Deep Maroon/Wine (Theme matching) */
+}
+
+.rose-type-2 {
+    background: linear-gradient(135deg, #ff80ab 0%, #c51162 100%); /* Elegant Rose Pink */
+}
+
+.rose-type-3 {
+    background: linear-gradient(135deg, #ffecb3 0%, #ffd54f 100%); /* Soft Golden/Cream Petal */
+}
+
+/* Girne aur natural hawa mein lehrane ka animation */
+@keyframes fallAndSway {
+    0% {
+        transform: translateY(-40px) translateX(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(55vh) translateX(var(--sway-distance, 35px)) rotate(200deg);
+    }
+    100% {
+        transform: translateY(110vh) translateX(calc(var(--sway-distance, 35px) * -1)) rotate(400deg);
+    }
+}

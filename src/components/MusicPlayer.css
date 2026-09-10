@@ -1,0 +1,25 @@
+.music-player-container {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.music-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fffaf0;
+  color: #8b3a42;
+  border: 1.5px solid #d4af37;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.music-btn.playing {
+  border-color: #2e7d32;
+  color: #2e7d32;
+}
